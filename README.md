@@ -17,6 +17,18 @@ An ML-based fault detection system built on the Tennessee Eastman Process (TEP) 
 | Test Samples | 200,000 |
 | Best Model | XGBoost |
 
+
+## Sample Outputs
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix(2).png)
+
+### SHAP Feature Importance
+![SHAP Global](outputs/shap_global(2).png)
+
+### Fault Detection Delay
+![Detection Delay](outputs/detection_delay(2).png)
+
 > **Note on faults 3, 9, and 15:** These are excluded from the observable accuracy calculation following established convention in TEP literature (Rieth et al. 2017, Bathelt et al. 2015). They produce no detectable statistical change in any process measurement and remain undetectable even by state-of-the-art methods including PCA, SVM, and deep autoencoders.
 
 ---
