@@ -37,8 +37,8 @@ An ML-based fault detection system built on the Tennessee Eastman Process (TEP) 
 
 ```
 TEP-fault-detection/
-├── tep_fault_detection.ipynb                        ← Main notebook (clean, no outputs)
-├──Tennessee_Eastman_Process _Fault_Detection.py     ← Python file for production purpose  
+├── Tennessee_Eastman_Process_Fault_Detection.ipynb  ← Main notebook (clean, no outputs)
+├── Tennessee_Eastman_Process_Fault_Detection.py    ← Python file for production purpose  
 ├── requirements.txt                                 ← Python dependencies
 ├── README.md                                        ← This file
 └── outputs/
